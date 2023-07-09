@@ -60,7 +60,7 @@ app.post("/index.html", (req, res) => {
   request.end();
 });
 
-app.listen(3000, function () {
+app.listen(process.env.PORT, function () {
   console.log("A porta 3000 está funcionando.");
 });
 
