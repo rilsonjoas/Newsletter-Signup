@@ -14,7 +14,7 @@ app.get("/", (req, res) => {
   res.sendFile(__dirname + "/index.html");
 });
 
-app.post("/", (req, res) => {
+app.post("/index.html", (req, res) => {
   const firstName = req.body.fname;
   const lastName = req.body.lname;
   const email = req.body.email;
