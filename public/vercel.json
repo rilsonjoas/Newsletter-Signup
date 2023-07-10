@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/api/:match*",
+      "destination": "https://us18.api.mailchimp.com/3.0/lists/a23d9d5fbe"
+    }
+  ]
+}
